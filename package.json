@@ -1,0 +1,15 @@
+{
+  "name": "centraldashboard",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zoracloud/centraldashboard.git",
+  "author": "rflowplatform@gmail.com <allankiplangat22@gmail.com>",
+  "license": "MIT",
+  "volta": {
+    "node": "14.17.6",
+    "yarn": "1.22.11"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.0"
+  }
+}
