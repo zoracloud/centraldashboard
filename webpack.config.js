@@ -162,7 +162,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin([DESTINATION]),
         new CopyWebpackPlugin(POLYFILLS.concat([
-            {from: resolve(SRC, 'kubeflow-palette.css'), to: DESTINATION},
+            {from: resolve(SRC, 'zora-palette.css'), to: DESTINATION},
         ])),
         new DefinePlugin({
             BUILD_VERSION: JSON.stringify(BUILD_VERSION),
